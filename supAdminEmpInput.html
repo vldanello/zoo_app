@@ -1,0 +1,39 @@
+<form action="action_page.php" method="post">
+<link rel="stylesheet" href="zoo.css">
+  <div class="imgcontainer">
+    <img src="logo.jpg" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+      <header>
+          <h1> NEW IMPLOYEE FORM</h1>
+      </header>
+
+        <label for="user_fname"><b>Employee First Name</b></label>
+        <input type="text" placeholder="Enter Employee First Name" name="user_fname" required><br>
+        <label for="user_lname"><b>Employee Last Name</b></label>
+        <input type="text" placeholder="Enter Employee Last Name" name="user_lname" required><br>
+        <label for="user_DOB"><b>Employee Date Of Birth</b></label>
+        <input type="date" placeholder="Enter employee DOB" name="user_DOB" value="YYYY-MM-DD" required ><br>
+        <label for="user_gender"><b>User gender</b></label>
+        <select id="user_gender" required>
+            <option value="">--Please choose an option--</option>
+            <option value="male">male</option>
+            <option value="female">female</option><br></select>
+        <label for="user_email"><b>User email</b></label>
+        <input type="text" placeholder="Enter email" name="user_email" required><br>
+        <label for="user_password"><b>Enter password</b></label>
+        <input type="password" placeholder="Enter password" name="user_password" required><br>
+        <label for="user_memeber"><b>Is this user a zoo member?</b></label>
+        <select id="user_memeber" required>
+       
+        <option value="no">no ( for employee)</option><br>
+        </select>
+            
+    <button type="submit">Submit</button>
+    <span class="psw"><a href="superAdmin_menu.html">Go back</a></span>
+    
+  </div>
+
+</form>
+
