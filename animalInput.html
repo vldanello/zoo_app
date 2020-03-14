@@ -1,0 +1,36 @@
+<form action="action_page.php" method="post">
+<link rel="stylesheet" href="zoo.css">
+  <div class="imgcontainer">
+    <img src="logo.jpg" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+      <header>
+          <h1> INPUT NEW ANIMAL</h1>
+      </header>
+
+        <label for="animal_name"><b>Animal Name</b></label>
+        <input type="text" placeholder="Enter Animal Name" name="animal_name" required><br>
+        <label for="animal_DOB"><b>Animal Date Of Birth</b></label>
+        <input type="date" placeholder="Enter animal DOB" name="animal_DOB" value="YYYY-MM-DD" required ><br>
+        <label for="animal_gender"><b>Animal gender</b></label>
+        <select id="animal_gender" required>
+            <option value="">--Please choose an option--</option>
+            <option value="male">male</option>
+            <option value="female">female</option><br></select>
+        <label for="animal_breed"><b>Animal Breed</b></label>
+        <input type="text" placeholder="Enter Animal Breed" name="animal_breed" required><br>
+        <label for="animal_display"><b>Is animal currently at display?</b></label>
+        <select id="animal_display" required>
+        <option value="">--Please choose an option--</option>
+        <option value="yes">yes</option>
+        <option value="no">no</option><br>
+        </select>
+            
+    <button type="submit">Submit</button>
+    <span class="psw"><a href="animal_menu.html">Go back</a></span>
+    
+  </div>
+
+</form>
+
