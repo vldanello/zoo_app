@@ -1,4 +1,67 @@
-<form action="action_page.php" method="post">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="navBar.css">
+  <link rel="stylesheet" href="zoo_copy.css">
+  <title>Add Animal</title>
+</head>
+
+<body>
+
+  <header class="nav">
+    <div id="nav">
+      <ul id="nav-bar">
+        <img src="watercolor_elephants.png">
+        <li><a href="animal_menu.html">Home</a></li>
+        <li><a href="login.html">Log out</a></li>
+        <li style="float: right;"><a href="animalList.html">All Animals</a></li>
+        <!--<li style="float: right;"><a href="updateAnimal.php">Update Animal Record</a></li>-->
+        <li style="float: right;"><a href="animalInput.html">Add Animal</a></li>
+      </ul>
+    </div>
+  </header><br>
+
+  <div class="container">
+    <div class="imgcontainer">
+      <img src="logo.jpg" alt="Avatar" class="avatar">
+    </div>
+    <h1> INPUT NEW ANIMAL</h1>
+    <form action="action_page.php" method="post">
+      <label for="animal_name"><b>Animal Name</b></label><br>
+      <input type="text" placeholder="Enter Animal Name" name="animal_name" required><br>
+
+      <label for="animal_DOB"><b>Animal Date Of Birth</b></label><br>
+      <input type="date" placeholder="Enter animal DOB" name="animal_DOB" value="YYYY-MM-DD" required><br>
+
+      <label for="animal_gender"><b>Animal gender</b></label><br>
+      <select id="animal_gender" required>
+        <option value="">--Please choose an option--</option>
+        <option value="male">male</option>
+        <option value="female">female</option><br>
+      </select><br>
+
+      <label for="animal_breed"><b>Animal Breed</b></label><br>
+      <input type="text" placeholder="Enter Animal Breed" name="animal_breed" required><br>
+
+      <label for="animal_display"><b>Is animal currently at display?</b></label><br>
+      <select id="animal_display" required>
+        <option value="">--Please choose an option--</option>
+        <option value="yes">yes</option>
+        <option value="no">no</option><br>
+      </select><br>
+
+      <button type="submit">Submit</button><br>
+      <span class="psw"><a href="animal_menu.html">Go back</a></span><br><br>
+    </form>
+  </div>
+
+</body>
+</html>
+
+<!--<form action="action_page.php" method="post">
 <link rel="stylesheet" href="zoo.css">
   <div class="imgcontainer">
     <img src="logo.jpg" alt="Avatar" class="avatar">
@@ -32,5 +95,4 @@
     
   </div>
 
-</form>
-
+</form>-->

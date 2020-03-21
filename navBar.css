@@ -1,0 +1,46 @@
+/*Nav bar begin*/
+header img{
+    height: 50px;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+header.nav{
+    background-color: #333;
+    /*fixed: nav bar stays when scrolling
+    absolute: nav bar stays at the top of page*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: list-item;
+    align-items: center;
+}
+#nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+    color: #43BABA;
+}
+.active {
+    background-color: #003b6f;
+}
+/*Nav bar end*/
