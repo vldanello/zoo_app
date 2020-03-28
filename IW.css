@@ -1,0 +1,57 @@
+body {
+    background-image: url(https://www.colorcombos.com/images/colors/F1E291.png), url("https://cdn.discordapp.com/attachments/686062949051531346/692961380550180944/wp4841323.png");
+    background-color:##cccccc;
+    background-position: top left, center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 285px 360px, cover;
+    position: relative, relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: left;
+    font-size: 50px;
+    color: darkslategray;
+}
+form {
+    position: fixed;
+    left: 10;
+    top: 65;
+    margin: 20px auto;
+    width: 344px;
+    color: darkolivegreen;
+}
+input {
+    padding: 10px;
+    font-size: inherit;
+}
+input[type="email"] {
+    display: block;
+    margin-bottom: 25px;
+    width: 75%;
+    border: 2px solid darkolivegreen;
+    background: #FAF6D9
+}
+input[type="password"] {
+    display: block;
+    margin-bottom: 25px;
+    width: 75%;
+    border: 2px solid darkolivegreen;
+    background: #FAF6D9
+}
+input[type="submit"] {
+    height: 45px;
+    width: 75%;
+    border: none;
+    background: darkolivegreen;
+    color: white;
+}
+input:focus {
+    background: white;
+}
+input[type="submit"]:focus {
+    height: 45px;
+    width: 75%;
+    border: solid darkolivegreen;
+    background: white;
+    color: darkolivegreen;
+}
