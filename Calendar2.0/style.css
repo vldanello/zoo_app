@@ -1,0 +1,19 @@
+
+body{
+    background:#458c8c
+
+}
+
+.card{
+    width: fit-content;
+    height: fit-content;
+    background: url(pic5.jpg);
+    color: #f4f7f5;
+    top: 50%;
+    left: 50%;
+    position: relative;
+    transform: translate(160%,50%);
+    box-sizing: border-box;
+    padding: 10px 10px;
+}
+
